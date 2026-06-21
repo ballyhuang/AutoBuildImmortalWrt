@@ -213,3 +213,4 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xinetd-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-zerotier-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-sfp kmod-ixgbe kmod-ixgbevf kmod-hwmon-gpiofan luci-i18n-firewall-zh-cn luci-i18n-filebrowser-zh-cn luci-app-argon-config luci-i18n-argon-config-zh-cn luci-i18n-package-manager-zh-cn luci-i18n-ttyd-zh-cn luci-i18n-smartdns-zh-cn luci-i18n-passwall-zh-cn luci-i18n-ddns-go-zh-cn luci-i18n-upnp-zh-cn luci-i18n-attendedsysupgrade-zh-cn luci-i18n-rtp2httpd-zh-cn"
