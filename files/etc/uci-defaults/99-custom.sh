@@ -39,9 +39,7 @@ echo "Interface count: $count" >>$LOGFILE
 
 # 2. 强制设置 eth1 为 WAN 口，eth0 及其他网口为 LAN 口
 wan_ifname="eth1"
-lan_ifnames=$(echo "$ifnames" | tr ' ' '\n' | grep -v '^eth1$' | tr '\n' ' ' | awk '{$1=$1};1')
-# 若不需要动态兼容多网口，也可直接写死为: lan_ifnames="eth0"
-
+lan_ifnames="eth0"
 echo "Using custom mapping: WAN=$wan_ifname LAN=$lan_ifnames" >>"$LOGFILE"
 
 # 3. 配置网络
